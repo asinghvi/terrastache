@@ -1,0 +1,6 @@
+package: github.com/cbroglie/terrastache
+import:
+- package: github.com/cbroglie/mustache
+- package: github.com/hashicorp/terraform
+  subpackages:
+  - command
