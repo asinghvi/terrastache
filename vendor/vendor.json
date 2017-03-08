@@ -1,0 +1,89 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "NNElWY1DDnkaMFqBDKoBL+UwUUQ=",
+			"path": "github.com/cbroglie/mustache",
+			"revision": "6857e4b493bdb8d4b1931446eb41704aeb4c28cb",
+			"revisionTime": "2016-10-20T19:33:16Z"
+		},
+		{
+			"checksumSHA1": "Ok3Csn6Voou7pQT6Dv2mkwpqFtw=",
+			"origin": "github.com/hashicorp/terraform/vendor/github.com/hashicorp/hcl",
+			"path": "github.com/hashicorp/hcl",
+			"revision": "5d894e4ffda759cf269171d4f5d692a768a4e270",
+			"revisionTime": "2017-03-07T22:03:45Z"
+		},
+		{
+			"checksumSHA1": "XQmjDva9JCGGkIecOgwtBEMCJhU=",
+			"origin": "github.com/hashicorp/terraform/vendor/github.com/hashicorp/hcl/hcl/ast",
+			"path": "github.com/hashicorp/hcl/hcl/ast",
+			"revision": "5d894e4ffda759cf269171d4f5d692a768a4e270",
+			"revisionTime": "2017-03-07T22:03:45Z"
+		},
+		{
+			"checksumSHA1": "MGYzZActhzSs9AnCx3wrEYVbKFg=",
+			"origin": "github.com/hashicorp/terraform/vendor/github.com/hashicorp/hcl/hcl/parser",
+			"path": "github.com/hashicorp/hcl/hcl/parser",
+			"revision": "5d894e4ffda759cf269171d4f5d692a768a4e270",
+			"revisionTime": "2017-03-07T22:03:45Z"
+		},
+		{
+			"checksumSHA1": "z6wdP4mRw4GVjShkNHDaOWkbxS0=",
+			"origin": "github.com/hashicorp/terraform/vendor/github.com/hashicorp/hcl/hcl/scanner",
+			"path": "github.com/hashicorp/hcl/hcl/scanner",
+			"revision": "5d894e4ffda759cf269171d4f5d692a768a4e270",
+			"revisionTime": "2017-03-07T22:03:45Z"
+		},
+		{
+			"checksumSHA1": "oS3SCN9Wd6D8/LG0Yx1fu84a7gI=",
+			"origin": "github.com/hashicorp/terraform/vendor/github.com/hashicorp/hcl/hcl/strconv",
+			"path": "github.com/hashicorp/hcl/hcl/strconv",
+			"revision": "5d894e4ffda759cf269171d4f5d692a768a4e270",
+			"revisionTime": "2017-03-07T22:03:45Z"
+		},
+		{
+			"checksumSHA1": "c6yprzj06ASwCo18TtbbNNBHljA=",
+			"origin": "github.com/hashicorp/terraform/vendor/github.com/hashicorp/hcl/hcl/token",
+			"path": "github.com/hashicorp/hcl/hcl/token",
+			"revision": "5d894e4ffda759cf269171d4f5d692a768a4e270",
+			"revisionTime": "2017-03-07T22:03:45Z"
+		},
+		{
+			"checksumSHA1": "138aCV5n8n7tkGYMsMVQQnnLq+0=",
+			"origin": "github.com/hashicorp/terraform/vendor/github.com/hashicorp/hcl/json/parser",
+			"path": "github.com/hashicorp/hcl/json/parser",
+			"revision": "5d894e4ffda759cf269171d4f5d692a768a4e270",
+			"revisionTime": "2017-03-07T22:03:45Z"
+		},
+		{
+			"checksumSHA1": "YdvFsNOMSWMLnY6fcliWQa0O5Fw=",
+			"origin": "github.com/hashicorp/terraform/vendor/github.com/hashicorp/hcl/json/scanner",
+			"path": "github.com/hashicorp/hcl/json/scanner",
+			"revision": "5d894e4ffda759cf269171d4f5d692a768a4e270",
+			"revisionTime": "2017-03-07T22:03:45Z"
+		},
+		{
+			"checksumSHA1": "fNlXQCQEnb+B3k5UDL/r15xtSJY=",
+			"origin": "github.com/hashicorp/terraform/vendor/github.com/hashicorp/hcl/json/token",
+			"path": "github.com/hashicorp/hcl/json/token",
+			"revision": "5d894e4ffda759cf269171d4f5d692a768a4e270",
+			"revisionTime": "2017-03-07T22:03:45Z"
+		},
+		{
+			"checksumSHA1": "3oNkdW3UKZxEWG7Jewo+BoI1p0g=",
+			"path": "github.com/hashicorp/terraform/helper/variables",
+			"revision": "5d894e4ffda759cf269171d4f5d692a768a4e270",
+			"revisionTime": "2017-03-07T22:03:45Z"
+		},
+		{
+			"checksumSHA1": "V/quM7+em2ByJbWBLOsEwnY3j/Q=",
+			"origin": "github.com/hashicorp/terraform/vendor/github.com/mitchellh/go-homedir",
+			"path": "github.com/mitchellh/go-homedir",
+			"revision": "5d894e4ffda759cf269171d4f5d692a768a4e270",
+			"revisionTime": "2017-03-07T22:03:45Z"
+		}
+	],
+	"rootPath": "github.com/cbroglie/terrastache"
+}

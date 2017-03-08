@@ -62,7 +62,7 @@ resource "aws_elb" "web" {
 `
 
 func TestRenderTemplate(t *testing.T) {
-	rendered, err := renderTemplate(template, map[string]string{})
+	rendered, err := renderTemplate(template, map[string]interface{}{})
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -126,7 +126,7 @@ resource "aws_elb" "web" {
 }
 
 func TestRenderTemplateWithSG(t *testing.T) {
-	rendered, err := renderTemplate(template, map[string]string{"sg_elb": "sg-blah"})
+	rendered, err := renderTemplate(template, map[string]interface{}{"sg_elb": "sg-blah"})
 	if err != nil {
 		t.Fatal(err)
 	}

@@ -7,14 +7,14 @@ import (
 	"os"
 
 	"github.com/cbroglie/mustache"
-	"github.com/hashicorp/terraform/command"
+	"github.com/hashicorp/terraform/helper/variables"
 )
 
-func parseCmdArgs() (string, map[string]string, error) {
-	vars := map[string]string{}
+func parseCmdArgs() (string, map[string]interface{}, error) {
+	vars := map[string]interface{}{}
 	var file string
-	flag.Var((*command.FlagKV)(&vars), "var", "variables")
-	flag.Var((*command.FlagKVFile)(&vars), "var-file", "variable file")
+	flag.Var((*variables.Flag)(&vars), "var", "variables")
+	flag.Var((*variables.FlagFile)(&vars), "var-file", "variable file")
 	flag.StringVar(&file, "template", "", "template file")
 	flag.Parse()
 
@@ -28,7 +28,7 @@ func parseCmdArgs() (string, map[string]string, error) {
 	return string(b), vars, nil
 }
 
-func renderTemplate(template string, vars map[string]string) (string, error) {
+func renderTemplate(template string, vars map[string]interface{}) (string, error) {
 	data, err := mustache.Render(template, vars)
 	if err != nil {
 		return "", err
